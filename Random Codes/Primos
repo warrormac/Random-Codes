@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d;
+    cout<<"ingrese su numero:";
+    cin>>a;
+    d=0;
+    b=2;
+    c=2;
+    while (b<a)
+    {
+        if (a%b==0)
+        {
+            d=1;
+        }
+         if (d==1){
+            b=a;
+            cout<<a;cout<<" no es primo \n";
+        }
+
+
+        b=b+1;
+
+
+    }
+    if (d==0)
+        {
+            cout<<b;cout<<" si es primo\n";
+        }
+
+}

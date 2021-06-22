@@ -1,0 +1,54 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"ingrese su numeros:\n";
+    cin>>a;
+    cin>>b;
+
+    //multiplo de 2
+    if (2%a==0)
+    {
+        cout<<a; cout<< " es multiplo de 2\n";
+    }
+    else
+    {
+        cout<<a; cout<<" no es multiplo de 2";
+    }
+
+    if (2%b==0)
+    {
+        cout<<b; cout<< " es multiplo de 2\n";
+    }
+    else
+    {
+        cout<<b; cout<<" no es multiplo de 2";
+    }
+
+    cout<<"\n";
+    //multiplo a-b
+    c=b%a;
+    if (c==0){
+        cout<<b;
+        cout<<" es multiplo de ";
+        cout<<a;
+    }
+    else{
+        cout<<b;
+        cout<<" no es multiplo de ";
+        cout<<a;
+    }
+    cout<<"\n";
+    c=a*a;
+    if (c==b)
+    {
+        cout<<a; cout<<" elevado al cuadrado es igual que "; cout<<b;
+    }
+    else
+    {
+        cout<<a; cout<<"elevado al cuadrado no es igual que "; cout<<b;
+    }
+}

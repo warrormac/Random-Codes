@@ -1,0 +1,24 @@
+#include<iostream>
+
+using namespace std;
+
+int main ()
+{
+    int a,b,c,d;
+    cout<<"ingrese su numero:";cin>>a;
+    b=0;
+    c=1;
+    d=0;
+    cout<<b<<"\n";
+    while(d<a)
+    {
+        b=c+b;
+        cout<<b<<"\n";
+        d++;
+        c=c+b;
+        cout<<c<<"\n";
+         d++;
+    }
+
+
+}
