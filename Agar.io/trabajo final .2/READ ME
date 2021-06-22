@@ -1,0 +1,29 @@
+Juego agar.io en C++ usango la libreria Alegro para IPOO UCSP
+
+Instalacion Allegro 5 en windows:
+
+    Descarga Allegro segun la version de su compilador 
+        https://www.allegro.cc/files/?v=5.0
+
+    Se descagaran tres carpetas bin, lib e include descomprimir las tres carpetas en las carpetas respectivas del compilador. 
+    Despues ir al codeblock y añadir en setting -> compiler -> linker setting -> add y selecionar todos los archivos de la 
+    carpeta lib del compilador por ejemplo C:\Program Files (x86)\CodeBlocks\MinGW\lib\Allegro\liballegro_acodec-5.0.10-md.a
+
+    Despues en search directorios agregar la carpeta include del compilador por ejemplo 
+    C:\Program Files (x86)\CodeBlocks\MinGW\include
+
+    Luego solo compilar y ejecutar
+
+
+Instrucciones de como jugar
+    
+    en el menu principal ingresar la cantidad de jugadores ya que por default estan como computadoras 
+    
+    el movimiento del presonaje es con las flechas, w a s d, j h k u y 2 4 6 8.
+    
+    Como ganar 
+         debes ser el ultimo que queda 
+         para poder crecer debes comer blobs mas pequeñas que tu
+         en caso de panico precione la tecla bar de espacio para divirse 
+         
+    
